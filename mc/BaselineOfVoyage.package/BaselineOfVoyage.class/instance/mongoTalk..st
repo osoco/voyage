@@ -2,6 +2,5 @@ external projects
 mongoTalk: spec
 	spec 
 		baseline: 'MongoTalk' 
-			with: [ spec repository: 'github://osoco/mongotalk:mastertls/mc';
-			loads: #( 'Client' ) ];
+			with: [ spec repository: 'github://tinchodias/mongotalk:features-sdam2/mc' ];
 		import: 'MongoTalk'
