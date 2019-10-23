@@ -7,17 +7,14 @@
 	"classvars" : [ ],
 	"instvars" : [
 		"databaseName",
-		"mongoUrls",
-		"mongoUrlResolverClass",
 		"password",
 		"replicaSetLookupTimeout",
 		"username",
-		"wireProtocolEnabled",
 		"ensuringCurrentOnSave",
 		"ensuringCurrentReferencesOnQueries",
 		"pool",
 		"mongoUrlResolver",
-		"connectionTimeout"
+		"connectionTimeout",
 		"updateConcerns",
 		"tls"
 	],
