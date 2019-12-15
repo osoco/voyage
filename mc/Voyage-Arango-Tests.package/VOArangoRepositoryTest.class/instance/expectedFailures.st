@@ -1,11 +1,3 @@
 testing
 expectedFailures 
-	^ #(
-	testCountWhere 
-	testSelectManyWithAllKeyword 
-	testUpdate 
-	testVersionAt
-	testIsLazy
-	testIsLazyOnToManyRelations
-	testSaveCircular
-	testSelectOneWithSubclass)
+	^ #(testCountWhere testSelectManyWithAllKeyword testUpdate testVersionAt)
