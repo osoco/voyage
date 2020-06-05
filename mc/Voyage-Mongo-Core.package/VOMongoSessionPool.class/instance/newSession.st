@@ -1,5 +1,3 @@
 private
-newSession 
-	^ Mongo 
-		host: self host 
-		port: self port
+newSession
+	^ Mongo host: self host port: self port tls: self tls

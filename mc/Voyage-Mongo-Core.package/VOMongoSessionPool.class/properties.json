@@ -10,7 +10,8 @@
 		"port",
 		"database",
 		"username",
-		"password"
+		"password",
+		"tls"
 	],
 	"name" : "VOMongoSessionPool",
 	"type" : "normal"

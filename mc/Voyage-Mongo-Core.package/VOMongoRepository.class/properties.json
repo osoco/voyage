@@ -18,6 +18,8 @@
 		"pool",
 		"mongoUrlResolver",
 		"connectionTimeout"
+		"updateConcerns",
+		"tls"
 	],
 	"name" : "VOMongoRepository",
 	"type" : "normal"
