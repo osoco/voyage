@@ -19,7 +19,8 @@
 		"defaultRemoveConcern",
 		"removeConcerns",
 		"defaultUpdateConcern",
-		"updateConcerns"
+		"updateConcerns",
+		"tls"
 	],
 	"name" : "VOMongoRepository",
 	"type" : "normal"
