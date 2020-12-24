@@ -9,5 +9,5 @@ dev: spec
 				spec 
 					className: 'BaselineOfVoyage';
 					loads: #('unqlite tests');
-					repository: 'github://pharo-nosql/voyage:master/mc' ];
+					repository: 'github://osoco/voyage:mastertls/mc' ];
 			import: 'Voyage' ].
