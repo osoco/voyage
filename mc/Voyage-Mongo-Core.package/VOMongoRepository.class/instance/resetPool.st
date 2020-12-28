@@ -13,6 +13,7 @@ resetPool
 		port: self mongoUrlResolver primaryMongoUrl port
 		database: self databaseName
 		username: self username 
-		password: self password.
+		password: self password
+		tls: self tls.
 	pool size: self poolSize.
 	pool connectionTimeout: self connectionTimeout.

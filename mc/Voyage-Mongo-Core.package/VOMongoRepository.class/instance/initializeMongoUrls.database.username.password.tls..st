@@ -1,5 +1,6 @@
 initialization
 initializeMongoUrls: aCollection database: databaseString username: aUserName password: aPassword tls: aBoolean
+	mongoUrls := aCollection.
 	databaseName := databaseString.
 	username := aUserName.
 	password := aPassword.
@@ -8,12 +9,3 @@ initializeMongoUrls: aCollection database: databaseString username: aUserName pa
 
 	self ensuringCurrentOnSave: false.
 	self ensuringCurrentReferencesOnQueries: false.
-
-	self readPreferenceForReadingOperations: MongoReadPreference newPrimaryPreferred.
-
-	sdamClient := MongoClient withUrls: aCollection.
-	sdamClient settings
-		maxConnections: self poolSize;
-		connectTimeout: self connectionTimeout;
-		socketTimeout: self connectionTimeout.
-	sdamClient start.
